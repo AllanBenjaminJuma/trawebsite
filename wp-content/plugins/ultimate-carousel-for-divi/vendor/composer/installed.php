@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'wpt00ls/ultimate-carousel-for-divi',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'a89db8a1198065e7548a8af77bafd5bdc1fd8754',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'pimple/pimple' => array(
+            'pretty_version' => 'v3.2.3',
+            'version' => '3.2.3.0',
+            'reference' => '9e403941ef9d65d20cba7d54e29fe906db42cf32',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../pimple/pimple',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'psr/container' => array(
+            'pretty_version' => '1.x-dev',
+            'version' => '1.9999999.9999999.9999999-dev',
+            'reference' => '513e0666f7216c7459170d56df27dfcefe1689ea',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../psr/container',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'wpt00ls/ultimate-carousel-for-divi' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'a89db8a1198065e7548a8af77bafd5bdc1fd8754',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
